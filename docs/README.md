@@ -1,10 +1,52 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+# Geometric Lib
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+Этот проект создан для вычисления площади и периметра различных геометрических фигур. 
+
+## Функции
+
+### `area(...params)`
+Данная функция вычисляет площади фигуры.
+- `...params` : параметры, зависящие от типа фигуры.
+
+
+Пример использования с квадратом:
+
+```python
+# Импорт модуля square
+from geometric_lib import square
+
+# Вызов функции для вычисления площади
+result = square.area(5)
+
+# Вывод результата
+print(result)
+```
+
+### `perimeter(...params)`
+- `...params` : параметры, зависящие от типа фигуры.
+
+
+Данная функция вычисляет периметра фигуры.
+
+Пример использования с треугольником:
+
+```python
+# Импорт модуля square
+from geometric_lib import triangle
+
+# Вызов функции для вычисления площади
+result = triangle.perimeter(1, 2, 3)
+
+# Вывод результата
+print(result)
+```
+
+## История изменений
+### `d641ca8`
+Добавлена документация к circle.py
+### `9ffec5f`
+Добавлена документация к rectangle.py
+### `c5e56c6`
+Добавлена документация к square.py
+### `73d05da`
+Добавлена документация к triangle.py
