@@ -31,10 +31,10 @@ print(result)
 Пример использования с треугольником:
 
 ```python
-# Импорт модуля square
+# Импорт модуля triangle
 from geometric_lib import triangle
 
-# Вызов функции для вычисления площади
+# Вызов функции для вычисления периметра
 result = triangle.perimeter(1, 2, 3)
 
 # Вывод результата
