@@ -26,3 +26,7 @@ class SquareTestCase(unittest.TestCase):
     def test_perimeter_zero_value(self):
         result = perimeter(0)
         self.assertEqual(result, 0)
+
+    def test_perimeter_string_value(self):
+        with self.assertRaises(TypeError):
+            area("hahahaha")
