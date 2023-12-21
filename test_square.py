@@ -17,7 +17,7 @@ class SquareTestCase(unittest.TestCase):
 
     def test_perimeter_positive_value(self):
         result = perimeter(2)
-        self.assertAlmostEqual(result, 2 * 4, 5)
+        self.assertAlmostEqual(result, 8, 5)
 
     def test_perimeter_negative_value(self):
         with self.assertRaises(ValueError):
