@@ -17,7 +17,7 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_perimeter_positive_value(self):
         result = perimeter(1, 2)
-        self.assertAlmostEqual(result, 2 * (1 + 2), 5)
+        self.assertAlmostEqual(result, 6, 5)
 
     def test_perimeter_negative_value(self):
         with self.assertRaises(ValueError):
