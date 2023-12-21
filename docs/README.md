@@ -41,7 +41,7 @@ result = triangle.perimeter(1, 2, 3)
 print(result)
 ```
 ## Тесты
-Ran 24 tests in 0.001s
+Ran 28 tests in 0.001s
 FAILED (failures=8)
 
 
