@@ -10,19 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: python unit tests
-        run: |
-          python -m unittest test_circle.py
-          python -m unittest test_rectangle.py
-          python -m unittest test_square.py
-          python -m unittest test_triangle.py
+        run: python -m unittest discover
 
   ubuntu-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: python unit tests
-        run: |
-          python -m unittest test_circle.py
-          python -m unittest test_rectangle.py
-          python -m unittest test_square.py
-          python -m unittest test_triangle.py
+        run: python -m unittest discover
